@@ -5,25 +5,26 @@ const buttonFree = document.getElementById('button-free');
 const buttonPro = document.getElementById('button-pro');
 const buttonEnterprise = document.getElementById('button-enterprise');
 
-const componentFree = document.getElementById('component-free');
-const componentPro = document.getElementById('component-pro');
-const componentEnterprise = document.getElementById('component-enterprise');
-
 const sliderUsers = document.getElementById('slider-users');
 const labelUsers = document.getElementById('label-users');
 const price = document.getElementById('price');
+
+// components
+const componentFree = document.getElementById('component-free');
+const componentPro = document.getElementById('component-pro');
+const componentEnterprise = document.getElementById('component-enterprise');
 
 
 // EVENTS
 
 buttonFree.addEventListener('click', function () {
-    $('#exampleModal').modal('show'); // Show the modal
+    $('#form-modal').modal('show'); // Show the modal
 });
 buttonPro.addEventListener('click', function () {
-    $('#exampleModal').modal('show'); // Show the modal
+    $('#form-modal').modal('show'); // Show the modal
 });
 buttonEnterprise.addEventListener('click', function () {
-    $('#exampleModal').modal('show'); // Show the modal
+    $('#form-modal').modal('show'); // Show the modal
 });
 
 
